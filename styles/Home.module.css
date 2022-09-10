@@ -1,129 +1,244 @@
-.container {
-  padding: 0 2rem;
+.sidebar {
+	height: 80vh;
+	width: 25%;
+	border-radius: 10px 0 0 10px;
+	background: rgba(0, 0, 0, 0.4);
+	box-shadow: 0 8px 32px 0 rgba(8, 157, 216, 0.37);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.topics {
+	margin-top: 10px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.topic_active {
+	padding: 15px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	width: 100%;
+	transition: all 0.1s;
+	text-transform: uppercase;
+	color: rgb(0, 119, 255);
+	cursor: pointer;
+}
+
+.topic_inactive {
+	padding: 15px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	width: 100%;
+	transition: all 0.5s;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.blog_area {
+	height: 80vh;
+	width: 65%;
+	border-radius: 0px 10px 10px 0;
+	background: rgba(255, 255, 255, 0);
+	box-shadow: 0 8px 32px 0 rgba(8, 157, 216, 0.37);
+	padding: 8px 22px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.blog_area::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: black;
+}
+
+.blog_area::-webkit-scrollbar {
+	width: 5px;
+	background-color: #f5f5f5;
+}
+
+.blog_area::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: rgb(0, 119, 255);
+	background-image: -webkit-linear-gradient(
+		45deg,
+		rgba(255, 255, 255, 0.2) 25%,
+		transparent 25%,
+		transparent 50%,
+		rgba(255, 255, 255, 0.2) 50%,
+		rgba(255, 255, 255, 0.2) 75%,
+		transparent 75%,
+		transparent
+	);
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+	/* margin-top: 10vh; */
+	color: rgb(0, 119, 255);
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.outer {
+	margin: 5vh;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+@media screen and (max-width: 890px) {
+	.main {
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.blog_area {
+		width: 100%;
+		height: fit-content;
+	}
+	.sidebar {
+		width: 100%;
+		height: fit-content;
+		box-shadow: none;
+		box-shadow: 0 -8px 32px 0 rgba(8, 157, 216, 0.37);
+	}
+	.spans {
+		margin-left: 5vw;
+	}
+	.map_outer {
+		flex-direction: column;
+	}
+	.map_outer iframe {
+		width: 80vw;
+	}
+	
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+/* Oraganizing Committe CSS */
+
+.table {
+	color: white;
+	height: 100%;
+	font-size: 18px;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.wrapper {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	margin: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.table tr td:nth-child(2n) {
+	width: 30%;
 }
 
-.title,
-.description {
-  text-align: center;
+.head {
+	font-size: 25px;
+	font-weight: 500;
+	color: rgb(0, 119, 255);
+	text-transform: uppercase;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+/*Lady_ADA CSS */
+
+.lady_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.lady_heading {
+	font-size: 25px;
+	font-weight: 500;
+	color: rgb(0, 119, 255);
+	text-transform: uppercase;
+}
+.lady_description {
+	color: white;
+	padding: 10px 8px;
+	font-size: 18px;
+}
+.lady_line {
+	width: 90%;
+	background-color: #f5f5f5;
+	height: 0.5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.lady_image {
+	align-self: center;
+	width: 80%;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+/* TimeLine CSS */
+
+.timeline_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+.spans {
+	margin-left: ;
+	color: rgb(0, 119, 255);
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 20px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.dates ul {
+	list-style: none;
+	font-size: 18px;
+}
+.cash ul {
+	list-style: none;
+	font-size: 18px;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.dates ul li span {
+	color: rgb(0, 119, 255);
+}
+.cash ul li span {
+	color: rgb(0, 119, 255);
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.register span {
+	text-transform: uppercase;
+	font-size: 25px;
+	color: rgb(0, 119, 255);
+}
+.register {
+	font-size: 20px;
 }
 
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
+/* MAP CSS */
+
+.map_outer {
+	width: 100%;
+	margin-top: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.map_outer span {
+	color: rgb(0, 119, 255);
+	text-transform: uppercase;
+}
+.map_outer div:nth-child(2) {
+	align-self: flex-start;
+	/* width: 40vw; */
 }
