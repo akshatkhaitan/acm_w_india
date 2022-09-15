@@ -8,6 +8,7 @@ import OC from "./OC";
 import Result from "./Result";
 import TimeLine from "./TimeLine";
 import Sponsors from "./Sponsors";
+import Schedule from "./Schedule";
 
 function DisplayArea({ selectedOption, allPostsData }) {
 	return (
@@ -29,8 +30,10 @@ function DisplayArea({ selectedOption, allPostsData }) {
 					<Result />
 				) : selectedOption == 8 ? (
 					<Contacts />
-				) :(
+				) : selectedOption==9?(
 					<Sponsors />
+				):(
+					<Schedule />
 				)}
 			</div>
 		</>

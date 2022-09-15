@@ -16,6 +16,7 @@ function Home() {
 			{ id: 7, name: "RESULT" },
 			{ id: 8, name: "CONTACTS" },
 			{ id: 9, name: "SPONSORS" },
+			{ id:10, name: "SCHEDULE" }
 		],
 	});
 	return (
