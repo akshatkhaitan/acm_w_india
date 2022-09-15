@@ -25,7 +25,7 @@ function Lady_Ada() {
                     <br /> <br />
 				</div>
 				<div className={styles.lady_image}>
-					<Image src={pic} height={1400} width ={1400} />
+					<Image src={pic} height={1800} width ={1400} />
 				</div>
 			</div>
 		</>

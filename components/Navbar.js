@@ -1,5 +1,6 @@
 import Navbarcss from "../styles/Navbar.module.css";
 import pic1 from "../assets/acm_india.png";
+import pic2 from "../assets/BITS_logo.png";
 import Image from "next/image";
 import Link from "next/link";
 export default function Navbar() {
@@ -15,6 +16,7 @@ export default function Navbar() {
 						<a className={Navbarcss.button}>ACM WOMEN</a>
 					</Link>
 				</div>
+				<Image src={pic2} height={50} width={175} />
 			</div>
 		</>
 	);

@@ -15,6 +15,7 @@ function Home() {
 			{ id: 6, name: "ORGANIZING COMMITTEE" },
 			{ id: 7, name: "RESULT" },
 			{ id: 8, name: "CONTACTS" },
+			{ id: 9, name: "SPONSORS" },
 		],
 	});
 	return (
