@@ -4,6 +4,7 @@ import SideMenu from "../components/SideMenu";
 import DisplayArea from "../components/DisplayArea";
 import Navbar from "../components/Navbar";
 import Map from "../components/Map";
+import Footer from "../components/Footer";
 
 
 function Home() {
@@ -14,7 +15,6 @@ function Home() {
 			{ id: 5, name: "TIMELINE" },
 			{ id: 6, name: "ORGANIZING COMMITTEE" },
 			{ id: 7, name: "RESULT" },
-			{ id: 8, name: "CONTACTS" },
 			{ id: 9, name: "SPONSORS" },
 			{ id:10, name: "SCHEDULE" }
 		],
@@ -32,6 +32,7 @@ function Home() {
 				</div>
 				<Map />
 			</div>
+			<Footer />
 		</>
 	);
 }
