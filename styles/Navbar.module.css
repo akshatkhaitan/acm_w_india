@@ -7,31 +7,32 @@
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: grey;
+    background-color: white;
+    color: black;
     font-size: 17px;
     border-bottom: 0.5px solid rgb(77, 149, 218);
     ;
-  }
+}
 
-  .buttons {
+.buttons {
     align-items: center;
     display: flex;
     flex-direction: row;
-    color: grey;
+    color: black;
     /* background: rgb(27, 36, 44); */
     margin-right: 4%;
-  }
-  .button {
+}
+
+.button {
     margin-left: 20px;
     margin-right: 28px;
     transition: 0.2s;
     position: relative;
     font-size: 20px;
     /* background: rgb(27, 36, 44); */
-  }
-  
-  .button::before {
+}
+
+.button::before {
     content: '';
     height: 1px;
     position: absolute;
@@ -40,12 +41,13 @@
     width: 0;
     right: 0;
     transition: 0.5s ease-in-out;
-  }
-  
-  .button:hover::before {
+}
+
+.button:hover::before {
     left: 0;
     width: 100%;
-  }
-  .button:hover {
-    color: white;
-  }
+}
+
+.button:hover {
+    color: rgb(77, 149, 218);
+}
