@@ -5,7 +5,7 @@ import styles from "../styles/Home.module.css";
 function Schedule() {
     return(
         <>
-            <div className="sppb-addon sppb-addon-raw-html "><div className="sppb-addon-content"><h2 className="h3 text-dark-brown underlined" id="current_a"><span className="underlined-text">DAY 1 - July 21, 2022 </span><span className="underlined-line"></span></h2>
+            <div className="sppb-addon sppb-addon-raw-html "><div className="sppb-addon-content"><h2 className="h3 text-dark-brown underlined" id="current_a"><span className="underlined-text">DAY 1 - October 8, 2022 - Saturday</span><span className="underlined-line"></span></h2>
 
             <table  className={styles.table} border="white">
             <thead  className={styles.head}>
@@ -17,37 +17,37 @@ function Schedule() {
             </tr></thead>
             <tbody>
             <tr>
-                <td align="center"><strong>Inaugural Session</strong></td>
-                <td align="center">8:15 - 8:30</td>
+                <td align="center"><strong>Breakfast</strong></td>
+                <td align="center">9:00</td>
                 <td align="center"> </td>
                 <td align="center"></td>
             </tr>
             <tr>
-                <td align="center"><strong>Keynote 1: You cannot spell success without you</strong><br/>Chair: Jayashree Mohan (MSR)</td>
-                <td align="center">8:30 - 9:30</td>
-                <td align="center">Geetha Kannan (Wequity)</td>
-                <td align="center"> 9:15 - 9:30</td>
+                <td align="center"><strong>Inaugural Session</strong></td>
+                <td align="center">10:00 - 10:15</td>
+                <td align="center">Director and HoD</td>
+                <td align="center"></td>
             </tr>
             <tr>
-                <td colSpan="4" align="center"><div ><strong>Coffee Break: 9:30 - 9:45</strong></div></td>
+                <td align="center"><strong>Talk 1 (IITH)</strong><br/></td>
+                <td align="center">10:15 - 11:00</td>
+                <td align="center">Dr. Raji (Wequity)</td>
+                <td align="center"> 10:45 - 11:00</td>
             </tr>
             <tr>
-                <td rowSpan="4" align="center"><strong>Career Options (India &amp; Abroad) - Industry, Academia, Entrepreneurship</strong><br/>Chair: Chitra Babu (SSN College of Engineering)</td>
-                <td rowSpan="4" align="center">9:45 - 12:30</td>
-                <td align="center">Heena Rathore (UT) -- Revamping Quality for Academic and Placement Abroad-- 9:45 - 10:15</td>
-                <td align="center">10:15 - 10:25</td>
+                <td colSpan="4" align="center"><div ><strong>Tea Break: 11:00 - 11:15</strong></div></td>
             </tr>
             <tr>
-                <td align="center">Anisha Parikh (Hackberry) -- My Journey as an Entrepreneur --10:25 - 10:55</td>
-                <td align="center">10:55 - 11:05</td>
+                <td align="center"><strong>Talk 2 (Google Hyderabad)</strong><br/></td>
+                <td align="center">11:15 - 12:00</td>
+                <td align="center">Sasi Challa - Director Of Engineering</td>
+                <td align="center">11:45 - 12:00</td>
             </tr>
             <tr>
-                <td align="center">Neeldhara Misra (IIT Gandhinagar) -- A career in academia: why and why not? --11:05 - 11:35</td>
-                <td align="center">11:35 - 11:45</td>
-            </tr>
-            <tr>
-                <td align="center">Srujana Merugu (Amazon) -- Anatomy of a Data Science Career in Industry --11:45 - 12:15</td>
-                <td align="center">12:15 - 12:25</td>
+                <td align="center"><strong>Ask Me Anything / Open House Session</strong><br/></td>
+                <td align="center">12:00 - 1:00</td>
+                <td align="center">Charu (IIITH), Akansha (IITM), Pragati (BITS Pilani) (Theory vs ML) Mentoring for young phds</td>
+                <td align="center"></td>
             </tr>
             <tr>
                 <td colSpan="4" align="center"><div ><strong>Lunch Break (12:25 - 3:00)</strong></div></td>
@@ -82,6 +82,7 @@ function Schedule() {
             </tbody>
             </table>
             <br />
+            
             <h2 ><span >DAY 2 - July 22, 2022 </span><span></span></h2>
 
             <table className={styles.table} border="white">
