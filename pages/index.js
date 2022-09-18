@@ -5,8 +5,6 @@ import DisplayArea from "../components/DisplayArea";
 import Navbar from "../components/Navbar";
 import Map from "../components/Map";
 import Footer from "../components/Footer";
-
-
 function Home() {
 	const [selectedOption, setSelectedOption] = useState({
 		activeOption: { id: 1, name: "Homepage" },
@@ -16,21 +14,25 @@ function Home() {
 			{ id: 6, name: "ORGANIZING COMMITTEE" },
 			{ id: 7, name: "RESULT" },
 			{ id: 9, name: "SPONSORS" },
-			{ id:10, name: "SCHEDULE" }
+			{ id: 10, name: "SCHEDULE" },
 		],
 	});
 	return (
 		<>
 			<Navbar />
-			<div className={styles.outer}>
-				<div className={styles.main}>
-					<SideMenu
-						setSelectedOption={setSelectedOption}
-						selectedOption={selectedOption}
-					/>
-					<DisplayArea selectedOption={selectedOption.activeOption.id} />
+			<div>
+				<div className={styles.stars}></div>
+				<div className={styles.stars2}></div>
+				<div className={styles.outer}>
+					<div className={styles.main}>
+						<SideMenu
+							setSelectedOption={setSelectedOption}
+							selectedOption={selectedOption}
+						/>
+						<DisplayArea selectedOption={selectedOption.activeOption.id} />
+					</div>
+					<Map />
 				</div>
-				<Map />
 			</div>
 			<Footer />
 		</>

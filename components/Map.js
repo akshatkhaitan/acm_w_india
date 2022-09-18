@@ -9,9 +9,6 @@ function Map() {
 					<div className={styles.map_headingName}>
 						How To Reach Bits Pilani, Hyderabad Campus
 					</div>
-					<div className={styles.map_subHeadingName}>
-						Campus Location: BITS-Pilani, Hyderabad Campus is about 25 Kms from Secunderabad Central Railway station, on the Rajiv Rahadari (Karimnagar Highway) near Hakimpet Air Force station. The campus is in a serene atmosphere amidst scenic terrain with small hillocks and urban forest, near Shameerpet lake.
-					</div>
 				</div>
 				<div className={styles.map_outer}>
 					<div>
@@ -20,6 +17,16 @@ function Map() {
 							width="940"
 							height="500"
 						></iframe>
+					</div>
+					<div className={styles.map_subHeadingName}>
+						<span>Campus Location:</span>
+						<p>
+							BITS-Pilani, Hyderabad Campus is about 25 Kms from Secunderabad
+							Central Railway station, on the Rajiv Rahadari (Karimnagar
+							Highway) near Hakimpet Air Force station. The campus is in a
+							serene atmosphere amidst scenic terrain with small hillocks and
+							urban forest, near Shameerpet lake.
+						</p>
 					</div>
 				</div>
 			</div>
