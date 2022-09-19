@@ -18,7 +18,7 @@ function Schedule() {
             <tbody>
             <tr>
                 <td align="center"><strong>Breakfast</strong></td>
-                <td align="center">9:00</td>
+                <td align="center">9:00 - 10:00</td>
                 <td align="center"> </td>
                 <td align="center"></td>
             </tr>
@@ -59,19 +59,19 @@ function Schedule() {
                 <td align="center"></td>
             </tr>
             <tr>
+                <td colSpan="4" align="center"><div ><strong>Break: (2:45 - 3:00)</strong></div></td>
+            </tr>
+            <tr>
                 <td align="center"><strong>Talk 4 (IITH)</strong></td>
-                <td align="center">2:45-3:30</td>
+                <td align="center">3:00-3:45</td>
                 <td align="center">Mahiti (IITH) (Mental health for women in science)</td>
                 <td align="center"></td>
             </tr>
             <tr>
-                <td align="center"><strong>Past, Present and Future of Women in Science &amp; Engineering</strong><br/>Chair: Pallavi Jain (IIT Jodhpur)</td>
-                <td align="center">2:45-3:15</td>
-                <td align="center">Abha Sur (MIT) -- 8:00 - 8:30 &amp; Hema Murthy (IIT Madras) -- 8:30 - 9:00</td>
-                <td align="center">9:00 - 9:15</td>
+                <td colSpan="4" align="center"><div ><strong>Prizes and Event Closing(3:45 - 4:00)</strong></div></td>
             </tr>
             <tr>
-                <td colSpan="4" align="center"><div ><strong>Tea Break (3:30 - 3:45)</strong></div></td>
+                <td colSpan="4" align="center"><div ><strong>Hight Tea(4:00- 4:30)</strong></div></td>
             </tr>
             
             </tbody>
