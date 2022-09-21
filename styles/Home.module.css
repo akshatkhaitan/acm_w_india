@@ -139,8 +139,11 @@
 	justify-content: center;
 }
 
-.table tr td:nth-child(2n) {
-	width: 50%;
+.table tr td:nth-child(n) {
+	width: 25%;
+}
+.table tr td:last-child {
+	width: 10%;
 }
 
 .head {

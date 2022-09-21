@@ -31,7 +31,7 @@ function Schedule() {
             <tr>
                 <td align="center"><strong>Talk 1 (IITH)</strong><br/></td>
                 <td align="center">10:15 - 11:00</td>
-                <td align="center">Dr. Raji (IITH)</td>
+                <td align="center">Prof. P. RajaLakshmi (IITH)</td>
                 <td align="center"> 10:45 - 11:00</td>
             </tr>
             <tr>
@@ -40,13 +40,13 @@ function Schedule() {
             <tr>
                 <td align="center"><strong>Talk 2 (Google Hyderabad)</strong><br/></td>
                 <td align="center">11:15 - 12:00</td>
-                <td align="center">Sasi Challa - Director Of Engineering</td>
+                <td align="center">Mythreyee Ganapathy</td>
                 <td align="center">11:45 - 12:00</td>
             </tr>
             <tr>
                 <td align="center"><strong>Ask Me Anything / Open House Session</strong><br/></td>
                 <td align="center">12:00 - 1:00</td>
-                <td align="center">Charu (IIITH), Akansha (IITM), Pragati (BITS Pilani) (Theory vs ML) Mentoring for young phds</td>
+                <td align="center">Dr. Charu Sharma (IIITH), Dr. Akansha  Agarwal (IITM), Dr. Pragati Srivastava (BITS Pilani) </td>
                 <td align="center"></td>
             </tr>
             <tr>
@@ -55,7 +55,7 @@ function Schedule() {
             <tr>
                 <td align="center"><div ><strong>Talk 3 (MSR, Banglore)</strong></div></td>
                 <td align="center">2:00 - 2:45</td>
-                <td align="center">Sunanya - NLP (overview of her technical/research journey/how is to work at a research lab) </td>
+                <td align="center">Sunayana Sitaram - Overview of research journey/how is to work at a research lab? </td>
                 <td align="center"></td>
             </tr>
             <tr>
@@ -64,7 +64,7 @@ function Schedule() {
             <tr>
                 <td align="center"><strong>Talk 4 (IITH)</strong></td>
                 <td align="center">3:00-3:45</td>
-                <td align="center">Mahiti (IITH) (Mental health for women in science)</td>
+                <td align="center">Prof. Mahiti Chittem - Mental health for women in science</td>
                 <td align="center"></td>
             </tr>
             <tr>

@@ -13,12 +13,12 @@ function OC() {
                 </thead>
 				<tbody>
 					<tr>
-						<td data-title="DATE">Prof. Heena Timani</td>
+						<td data-title="DATE">Dr. Heena Timani</td>
 						{/* <td data-title="NAME OF THE EVENT">Chair </td> */}
 						<td data-title="NAME OF EXPERTS">ACM</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Prof. Rutvi Shah</td>
+						<td data-title="DATE">Dr. Rutvi Shah</td>
 						{/* <td data-title="NAME OF THE EVENT">Head </td> */}
 						<td data-title="NAME OF EXPERTS">
 							ACM{" "}
@@ -32,7 +32,7 @@ function OC() {
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Prof. Manik Gupta</td>
+						<td data-title="DATE">Dr. Manik Gupta</td>
 						{/* <td data-title="NAME OF THE EVENT"> */}
 							{/* Faculty Sponsor (OIST ACM Student Chapter){" "} */}
 						{/* </td> */}
@@ -55,21 +55,21 @@ function OC() {
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Prof. Barsha Mitra</td>
+						<td data-title="DATE">Dr. Barsha Mitra</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor</td> */}
 						<td data-title="NAME OF EXPERTS">
 						BITS PILANI HYD
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Prof. Pragati Shrivastava</td>
+						<td data-title="DATE">Dr. Pragati Shrivastava</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor </td> */}
 						<td data-title="NAME OF EXPERTS">
 						BITS PILANI HYD{" "}
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Prof. Sameera Muhamed Salam</td>
+						<td data-title="DATE">Dr. Sameera Muhamed Salam</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor</td> */}
 						<td data-title="NAME OF EXPERTS">
 						BITS PILANI HYD
