@@ -64,7 +64,7 @@ export default function Footer() {
 				</div>
 			</div>
 			<div className={styles.copyright}>
-				Copyright 2022 All rights reserved. Designed by ACM BITS Hyderabad Chapter
+				Copyright 2022 All rights reserved. Designed by ACM BITS Pilani Hyderabad Student Chapter
 			</div>
 		</footer>
 	);

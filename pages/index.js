@@ -10,11 +10,11 @@ function Home() {
 		activeOption: { id: 1, name: "Homepage" },
 		options: [
 			{ id: 4, name: "LADY ADA CONTEST" },
-			{ id: 5, name: "TIMELINE" },
+			{ id: 5, name: "CONTEST TIMELINE" },
+			{ id: 10, name: "CELEBRATION SCHEDULE" },
+			{ id: 7, name: "CONTEST RESULTS" },
 			{ id: 6, name: "ORGANIZING COMMITTEE" },
-			{ id: 7, name: "RESULT" },
 			{ id: 9, name: "SPONSORS" },
-			{ id: 10, name: "SCHEDULE" },
 		],
 	});
 	return (

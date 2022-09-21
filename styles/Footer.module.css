@@ -28,7 +28,7 @@
   .footerLeft {
     display: flex;
     flex-flow: row wrap;
-    flex: 3 1 auto;
+    flex: auto;
     justify-content: space-between;
   }
   .footerLeft > * {
