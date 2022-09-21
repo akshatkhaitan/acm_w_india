@@ -13,10 +13,6 @@ export default function Footer() {
 		<footer className={styles.footerWrapper}>
 			<div className={styles.footer}>
 				<div className={styles.footerLeft}>
-					{/* <div className={styles.info}>
-						<h2>ACM BPHC</h2>
-						<p>Accociation For Computing Machinery</p>
-					</div> */}
 					<div className={styles.social}>
 						<h1>Follow Us</h1>
 						<div className={styles.icons}>

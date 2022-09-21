@@ -26,10 +26,12 @@ function Map() {
 							<br></br>
 							Telangana, India
 						</p>
+					</div>
+					<div>
 						<iframe
-							src="https://www.google.com/maps/d/embed?mid=1i-23m9uSjuEhIT7NRm9yYv17u8Fz578&ehbc=2E312F"
-							width="940"
-							height="500"
+							src="https://www.google.com/maps/d/embed?mid=1vUBOyBl6jiSNo0TbkT7BoNP7lZ1h2mg&hl=en&ehbc=2E312F"
+							width="640"
+							height="480"
 						></iframe>
 					</div>
 				</div>
