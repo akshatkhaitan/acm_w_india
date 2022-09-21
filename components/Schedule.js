@@ -16,12 +16,12 @@ function Schedule() {
                 <td align="center"><strong>Time Slot (IST): QnA</strong></td>
             </tr></thead>
             <tbody>
-            <tr>
+            {/* <tr>
                 <td align="center"><strong>Breakfast</strong></td>
                 <td align="center">9:00</td>
                 <td align="center"> </td>
                 <td align="center"></td>
-            </tr>
+            </tr> */}
             <tr>
                 <td align="center"><strong>Inaugural Session</strong></td>
                 <td align="center">10:00 - 10:15</td>
@@ -31,7 +31,7 @@ function Schedule() {
             <tr>
                 <td align="center"><strong>Talk 1 (IITH)</strong><br/></td>
                 <td align="center">10:15 - 11:00</td>
-                <td align="center">Dr. Raji (Wequity)</td>
+                <td align="center">Dr. Raji (IITH)</td>
                 <td align="center"> 10:45 - 11:00</td>
             </tr>
             <tr>

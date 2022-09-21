@@ -13,26 +13,26 @@ function OC() {
                 </thead>
 				<tbody>
 					<tr>
-						<td data-title="DATE">Heena Timani</td>
+						<td data-title="DATE">Prof. Heena Timani</td>
 						{/* <td data-title="NAME OF THE EVENT">Chair </td> */}
 						<td data-title="NAME OF EXPERTS">ACM</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Rutvi Shah</td>
+						<td data-title="DATE">Prof. Rutvi Shah</td>
 						{/* <td data-title="NAME OF THE EVENT">Head </td> */}
 						<td data-title="NAME OF EXPERTS">
 							ACM{" "}
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Chitra Babu</td>
+						<td data-title="DATE">Prof. Chitra Babu</td>
 						{/* <td data-title="NAME OF THE EVENT">Head </td> */}
 						<td data-title="NAME OF EXPERTS">
 							ACM{" "}
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Manik Gupta</td>
+						<td data-title="DATE">Prof. Manik Gupta</td>
 						{/* <td data-title="NAME OF THE EVENT"> */}
 							{/* Faculty Sponsor (OIST ACM Student Chapter){" "} */}
 						{/* </td> */}
@@ -41,35 +41,35 @@ function OC() {
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Geeta Kumari</td>
+						<td data-title="DATE">Prof. Geeta Kumari</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor </td> */}
 						<td data-title="NAME OF EXPERTS">
 							BITS PILANI HYD
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Aruna Malapati</td>
+						<td data-title="DATE">Prof. Aruna Malapati</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor </td> */}
 						<td data-title="NAME OF EXPERTS">
 						BITS PILANI HYD
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Barsha Mitra</td>
+						<td data-title="DATE">Prof. Barsha Mitra</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor</td> */}
 						<td data-title="NAME OF EXPERTS">
 						BITS PILANI HYD
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Pragati Shrivastava</td>
+						<td data-title="DATE">Prof. Pragati Shrivastava</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor </td> */}
 						<td data-title="NAME OF EXPERTS">
 						BITS PILANI HYD{" "}
 						</td>
 					</tr>
 					<tr>
-						<td data-title="DATE">Sameera Muhamed Salam</td>
+						<td data-title="DATE">Prof. Sameera Muhamed Salam</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor</td> */}
 						<td data-title="NAME OF EXPERTS">
 						BITS PILANI HYD

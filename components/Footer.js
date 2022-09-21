@@ -13,12 +13,12 @@ export default function Footer() {
 		<footer className={styles.footerWrapper}>
 			<div className={styles.footer}>
 				<div className={styles.footerLeft}>
-					<div className={styles.info}>
+					{/* <div className={styles.info}>
 						<h2>ACM BPHC</h2>
 						<p>Accociation For Computing Machinery</p>
-					</div>
+					</div> */}
 					<div className={styles.social}>
-						<h2>Follow Us</h2>
+						<h1>Follow Us</h1>
 						<div className={styles.icons}>
 							<a
 								rel="noopener noreferrer"
@@ -53,7 +53,7 @@ export default function Footer() {
 				</div>
 				<div className={styles.footerRight}>
 					<div className={styles.contact}>
-						<h2>Contact Us</h2>
+						<h1>Contact Us</h1>
 						<a
 							className={styles.mail}
 							href="mailto:acm.bphc@hyderabad.bits-pilani.ac.in"

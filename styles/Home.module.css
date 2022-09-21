@@ -240,7 +240,8 @@
 }
 
 .map_subHeadingName p {
-	font-size: 20px;
+	font-size: 15px;
+	color: whitesmoke;
 }
 .map_outer span {
 	color: rgb(0, 119, 255);

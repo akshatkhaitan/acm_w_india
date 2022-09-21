@@ -5,7 +5,8 @@
     flex-flow: column;
     padding: 50px;
     padding-bottom: 12px;
-    color: var(--white-color);
+    /* color: var(--white-color); */
+    color: whitesmoke;
     z-index: 100;
     background: var(--primary-color);
     background: linear-gradient(
