@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import pic1 from "../assets/BITS_logo.png";
+import Link from "next/link"
 function SideMenu({ setSelectedOption, selectedOption }) {
 	const handleClick = (index) => {
 		setSelectedOption({
@@ -37,6 +38,12 @@ function SideMenu({ setSelectedOption, selectedOption }) {
 							</div>
 						);
 					})}
+          <div className={styles.topic_inactive}>
+            <Link href = "https://india.acm.org/">ACM INDIA</Link>
+          </div>
+          <div className={styles.topic_inactive}>
+          <Link href="https://women.acm.org/">ACM WOMEN</Link>
+          </div>
 				</div>
 				<div style={{margin:"2px auto"}}>
 					<Image src={pic1} height={70} width={250} />
