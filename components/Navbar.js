@@ -1,22 +1,22 @@
 import Navbarcss from "../styles/Navbar.module.css";
 import pic1 from "../assets/acm_india.png";
-import pic2 from "../assets/BITS_logo.png";
+import pic2 from "../assets/heading.png";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
+import pic3 from "../assets/acm_w.png";
 export default function Navbar() {
 	return (
 		<>
 			<div className={Navbarcss.navbar}>
-				<Image src={pic1} height={55} width={140} />
-				<div className={Navbarcss.buttons}>
-					<Link href="https://india.acm.org/">
-						<a className={Navbarcss.button}>ACM INDIA</a>
-					</Link>
-					<Link href="https://india.acm.org/acm-w-india">
-						<a className={Navbarcss.button}>ACM WOMEN</a>
-					</Link>
+				<div>
+					<Image src={pic3} height={90} width={150} />
 				</div>
-				<Image src={pic2} height={50} width={175} />
+				<div>
+					<Image src={pic2} height={95} width={1000} />
+				</div>
+				<div>
+					<Image src={pic1} height={75} width={180} />
+				</div>
 			</div>
 		</>
 	);
