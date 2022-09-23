@@ -21,12 +21,12 @@ function Sponsors() {
 	];
 	return (
 		<>
-			<div vertical layout className={styles.sponsors_outer}   >
+			<div className={styles.sponsors_outer}   >
 			 
 				{data.map((com) => {
 					return (
 						
-						<div vertical layout key={com.id}  >
+						<div key={com.id}  >
 							<Image src={com.img}
 							width={com?.w}
 							height={com?.h}
