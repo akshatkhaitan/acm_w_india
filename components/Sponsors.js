@@ -14,9 +14,9 @@ function Sponsors() {
 		{ img: pic1, id: 1 ,h:152,w:600},
 		{ img: pic2, id: 2 ,h:400,w:600},
 		{ img: pic3, id: 3 ,h:156,w:600},
-		{ img: pic7, id: 4 ,h: 600,w:600},
+		{ img: pic7, id: 4 ,h:600,w:600},
 		{ img: pic4, id: 5 ,h:205,w:600},
-		{ img: pic5, id: 6 ,h:247.45,w:600},
+		{ img: pic5, id: 6 ,h:247,w:600},
 		{ img: pic6, id: 7 ,h:240,w:600},
 	];
 	return (
@@ -26,10 +26,11 @@ function Sponsors() {
 				{data.map((com) => {
 					return (
 						
-						<div key={com.id}  >
+						<div key={com.id} style={{margin:"25px 100px"}} >
 							<Image src={com.img}
 							width={com?.w}
 							height={com?.h}
+							
 							/>
 						</div>	
 						

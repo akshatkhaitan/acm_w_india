@@ -38,16 +38,14 @@ function SideMenu({ setSelectedOption, selectedOption }) {
 							</div>
 						);
 					})}
-          <div className={styles.topic_inactive}>
-            <Link href = "https://india.acm.org/">ACM INDIA</Link>
-          </div>
-          <div className={styles.topic_inactive}>
-          <Link href="https://women.acm.org/">ACM WOMEN</Link>
-          </div>
+					<div className={styles.topic_inactive}>
+						<Link href="https://india.acm.org/">ACM INDIA</Link>
+					</div>
+					<div className={styles.topic_inactive}>
+						<Link href="https://women.acm.org/">ACM WOMEN</Link>
+					</div>
 				</div>
-				<div style={{margin:"2px auto"}}>
-					<Image src={pic1} height={70} width={250} />
-				</div>
+				
 			</div>
 		</>
 	);

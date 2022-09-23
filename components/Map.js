@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
+import pic1 from "../assets/BITS_logo.png";
+import Image from "next/image";
 function Map() {
 	return (
 		<>
@@ -9,6 +11,9 @@ function Map() {
 					<div className={styles.map_headingName}>
 						LOCATION: Bits Pilani, Hyderabad Campus
 					</div>
+				</div>
+				<div align="center" style={{ margin: "2px auto" }}>
+					<Image src={pic1} />
 				</div>
 				<div className={styles.map_outer}>
 					<div className={styles.map_subHeadingName}>
