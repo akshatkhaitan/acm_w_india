@@ -41,12 +41,12 @@ function OC() {
 					<tr>
 						<td data-title="DATE">Prof. G.Geeta Kumari</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor </td> */}
-						<td data-title="NAME OF EXPERTS">HoD, Assosciate Professor</td>
+						<td data-title="NAME OF EXPERTS">HoD, Associate Professor</td>
 					</tr>
 					<tr>
 						<td data-title="DATE">Prof. Aruna Malapati</td>
 						{/* <td data-title="NAME OF THE EVENT">Assistant Professor </td> */}
-						<td data-title="NAME OF EXPERTS">Assosciate Professor</td>
+						<td data-title="NAME OF EXPERTS">Associate Professor</td>
 					</tr>
 					<tr>
 						<td data-title="DATE">Dr. Barsha Mitra</td>

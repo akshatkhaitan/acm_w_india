@@ -12,9 +12,9 @@ function Map() {
 						LOCATION: Bits Pilani, Hyderabad Campus
 					</div>
 				</div>
-				<div align="center" style={{ margin: "2px auto" }}>
+				{/* <div align="center" style={{ margin: "2px auto" }}>
 					<Image src={pic1} />
-				</div>
+				</div> */}
 				<div className={styles.map_outer}>
 					<div className={styles.map_subHeadingName}>
 						<span>How To Reach:</span>

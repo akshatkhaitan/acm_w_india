@@ -67,7 +67,7 @@ function Result() {
 						{/* <td data-title="NAME OF THE EVENT"> */}
 						{/* Faculty Sponsor (OIST ACM Student Chapter){" "} */}
 						{/* </td> */}
-						<td data-title="NAME OF EXPERTS"></td>
+						<td data-title="NAME OF EXPERTS">IIIT-Guwahati</td>
 					</tr><br />
 					<tr>
 						<td data-title="DATE">Kavya Chopra</td>
